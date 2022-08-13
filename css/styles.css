@@ -1,0 +1,151 @@
+/* MOBILE CODE */
+
+@media screen and (max-width: 992px) {
+
+  header {
+    position: relative;
+    background-image: url(../images/image-header-mobile.jpg);
+    width: 100%;
+    height: 30vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .stats-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    margin: 1em auto 1.8em auto;
+    width: 80vw;
+  }
+
+  .master-container {
+    width: 90vw;
+    margin: 10vh auto auto auto;
+  }
+
+  .number {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+
+  p {
+    margin: auto auto 2.2em auto;
+  }
+
+  .things {
+    margin: .8em auto 1.2em auto;
+    font-weight: 300;
+    font-size: .8em;
+    color: hsla(0, 0%, 100%, 0.75);
+    letter-spacing: .2em;
+  }
+
+  body {
+    font-size: .8em;
+  }
+
+}
+
+/* DESKTOP CODE */
+
+@media screen and (min-width: 993px) {
+
+  .master-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80vw;
+    height: auto;
+    margin: 20vh auto auto auto;
+  }
+
+  header {
+    width: 50em;
+    background-image: url(../images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .stats-container {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    margin: 2.5em auto auto 3.5em;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: row;
+    margin: auto auto auto 0;
+  }
+
+  .stat {
+    padding: 0 3em 0 0;
+  }
+
+  .body-stats p {
+    width: 90%;
+    font-size: .77em;
+    margin-bottom: 2.5em;
+  }
+
+  .number {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: .2em;
+  }
+
+  .things {
+    font-weight: lighter;
+    font-size: .8em;
+    margin-top: 0;
+    margin-bottom: 4em;
+  }
+
+  body {
+    font-size: 1.5em;
+  }
+
+}
+
+/* GLOBAL CODE */
+
+.master-container {
+  color: hsl(0, 0%, 100%);
+  border: 1px solid transparent;
+  border-radius: .6em;
+  overflow: hidden;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.text-purple {
+  color: hsl(277, 64%, 61%);
+}
+
+.things {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.attribution {
+  color: white;
+  margin: 8vh auto auto auto;
+  text-align: center;
+}
+
+.attribution a {
+  box-shadow: 10px 10px 10px black;
+}
+
+.body-stats p {
+  font-weight: lighter;
+  letter-spacing: .05em;
+  line-height: 1.8em;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Inter", sans-serif;
+}
